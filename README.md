@@ -1,38 +1,40 @@
-# 🧑‍🏫 Sistema de Gerenciamento de Alunos e Pokémons
+🧑‍🏫 Sistema de Gerenciamento de Alunos e Pokémons
+Projeto desenvolvido em Python, com banco de dados SQLite, integração com a PokéAPI e visualização via dashboard em Streamlit.
+A proposta é criar um sistema educacional divertido e funcional, onde você pode cadastrar alunos, consultar e gerenciar Pokémons, fazer atribuições e gerar relatórios com inteligência artificial local.
 
-Projeto desenvolvido em Python, com banco de dados SQLite e integração com a PokéAPI. A ideia é criar um sistema simples onde é possível cadastrar alunos e pokémons, atribuir pokémons a alunos e listar todos com suas respectivas informações.
+📘 Descrição
+Este projeto foi desenvolvido com o objetivo de praticar e aplicar conhecimentos em:
 
-## 📘 Descrição
+📦 Banco de dados relacional (SQLite)
 
-Este projeto foi pensado como forma de praticar habilidades com:
+🌐 Integração com API REST (PokéAPI)
 
-- Banco de dados relacional (SQLite)
-- Integração com API REST (PokéAPI)
-- Organização de código em Python
-- Interações via terminal (CLI)
+🧠 Geração de relatórios com IA local (Ollama)
 
+📊 Criação de dashboards com Streamlit
+
+🧩 Organização de código Python e CRUD com terminal
+
+✅ Funcionalidades
 Você poderá:
 
-- 📋 Cadastrar alunos e pokémons
-- 🔄 Atribuir pokémons a alunos
-- 🔍 Consultar pokémons diretamente da API
-- 📑 Visualizar alunos e seus pokémons
+📋 Cadastrar alunos e Pokémons (manualmente ou via API)
 
----
+🔄 Atribuir Pokémons a alunos
 
-## 🛠️ Tecnologias utilizadas
+🔍 Consultar Pokémons diretamente da PokéAPI
 
-- Python 3.x
-- SQLite
-- PokéAPI (https://pokeapi.co/)
-- Bibliotecas: `requests`, `sqlite3`, `json`
+📑 Visualizar alunos e seus Pokémons em tabela
 
----
+📈 Ver estatísticas dos Pokémons mais usados
 
-## 🚀 Como executar
+🧠 Gerar relatórios automáticos com IA (em português)
 
-1. Clone o repositório:
-
-```bash
-git clone https://github.com/seuusuario/escola-pokemon.git
-cd escola-pokemon
+🛠️ Tecnologias Utilizadas
+Tecnologia	Finalidade
+Python 3.x	Linguagem principal do projeto
+SQLite	Armazenamento local dos dados
+PokéAPI	Consulta de dados reais dos Pokémons
+Streamlit	Dashboard web interativo
+Ollama	Geração de relatórios por IA (modelo LLaMA 3)
+Bibliotecas	requests, sqlite3, json, pandas, streamlit, ollama
