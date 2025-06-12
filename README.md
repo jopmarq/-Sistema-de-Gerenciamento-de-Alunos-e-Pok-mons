@@ -1,40 +1,48 @@
-🧑‍🏫 Sistema de Gerenciamento de Alunos e Pokémons
-Projeto desenvolvido em Python, com banco de dados SQLite, integração com a PokéAPI e visualização via dashboard em Streamlit.
-A proposta é criar um sistema educacional divertido e funcional, onde você pode cadastrar alunos, consultar e gerenciar Pokémons, fazer atribuições e gerar relatórios com inteligência artificial local.
+# 🧑‍🏫 Sistema de Gerenciamento de Alunos e Pokémons
 
-📘 Descrição
-Este projeto foi desenvolvido com o objetivo de praticar e aplicar conhecimentos em:
+Um sistema educacional interativo desenvolvido em **Python**, com **SQLite** e integração com a **PokéAPI**, onde é possível cadastrar alunos, importar Pokémons, fazer atribuições e visualizar tudo de forma interativa em um dashboard criado com **Streamlit**. O projeto ainda conta com geração de relatórios automáticos por IA local com **Ollama**.
 
-📦 Banco de dados relacional (SQLite)
+---
 
-🌐 Integração com API REST (PokéAPI)
+## 📘 Descrição
 
-🧠 Geração de relatórios com IA local (Ollama)
+Este projeto foi criado com o objetivo de praticar:
 
-📊 Criação de dashboards com Streamlit
+- Modelagem de banco de dados relacional com **SQLite**
+- Consumo de API REST com **PokéAPI**
+- Organização e estruturação de código em Python
+- Criação de **dashboards interativos com Streamlit**
+- Uso de **IA local para geração de relatórios** com **Ollama**
 
-🧩 Organização de código Python e CRUD com terminal
+---
 
-✅ Funcionalidades
-Você poderá:
+## ✅ Funcionalidades
 
-📋 Cadastrar alunos e Pokémons (manualmente ou via API)
+- 📋 Cadastro de alunos e Pokémons (manual ou via PokéAPI)
+- 🔄 Atribuição de Pokémons a alunos
+- 🔍 Consulta de dados detalhados de Pokémons pela API
+- 📑 Listagem completa de alunos com seus Pokémons
+- 📊 Dashboard com gráficos dos Pokémons mais usados
+- 🤖 Geração de relatório automático com IA (resposta em português)
 
-🔄 Atribuir Pokémons a alunos
+---
 
-🔍 Consultar Pokémons diretamente da PokéAPI
+## 🛠️ Tecnologias Utilizadas
 
-📑 Visualizar alunos e seus Pokémons em tabela
+| Tecnologia      | Finalidade                               |
+|-----------------|-------------------------------------------|
+| **Python 3.x**  | Linguagem principal                       |
+| **SQLite**      | Banco de dados local                     |
+| **PokéAPI**     | Fonte oficial de dados dos Pokémons      |
+| **Streamlit**   | Dashboard e visualização interativa      |
+| **Ollama**      | IA local para geração de relatórios      |
+| **Libs Python** | `requests`, `sqlite3`, `pandas`, `json`, `streamlit`, `ollama` |
 
-📈 Ver estatísticas dos Pokémons mais usados
+---
 
-🧠 Gerar relatórios automáticos com IA (em português)
+## 🚀 Como Executar
 
-🛠️ Tecnologias Utilizadas
-Tecnologia	Finalidade
-Python 3.x	Linguagem principal do projeto
-SQLite	Armazenamento local dos dados
-PokéAPI	Consulta de dados reais dos Pokémons
-Streamlit	Dashboard web interativo
-Ollama	Geração de relatórios por IA (modelo LLaMA 3)
-Bibliotecas	requests, sqlite3, json, pandas, streamlit, ollama
+1. **Clone o repositório**
+   ```bash
+   git clone https://github.com/seu-usuario/escola-pokemon.git
+   cd escola-pokemon
